@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-demo-search",
+  "description": "Gatsby V2 with search plugin",
+  "version": "1.0.0",
+  "author": "Alex Duda <aduda@humanseelabs.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/humanseelabs/gatsby-plugin-lunr-sample.git"
+  },
+  "keywords": [
+    "gatsby",
+    "search",
+    "gatsby-plugin-lunr",
+    "lunr"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "next"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0",
+    "gatsby-plugin-lunr": "^0.1.9",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0"
+  }
+}
