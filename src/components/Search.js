@@ -9,30 +9,17 @@ class Search extends Component {
 
   render() {
     return (
-      <div>
-        <input 
-          type="text" 
+      <div className={this.props.classNames}>
+        <input className='search__input'
+          type='text' 
           value={this.state.query} 
           onChange={this.search} 
           placeholder={'Search'}
-          style={{ 
-            'borderRadius': '4px',
-            width: '100%',
-            paddingLeft: '10px',
-            outline: 'none'
-          }}
         />
-        <ul style={{ 
-          fontSize: '16px',
-          marginTop: '10px',
-        }}>
+        <ul className='search__list'>
           {this.state.results.map((page) => (
           <li key={page.url}>
-            <Link 
-              style={{
-                color: 'white',
-                textDecoration: 'none'
-              }} 
+            <Link className='search__list_white search__list_non-decoration'
               to={page.url}>
               {page.title}
             </Link>

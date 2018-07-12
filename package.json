@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-demo-search",
+  "name": "gatsby-plugin-lunr-sample",
   "description": "Gatsby V2 with search plugin",
   "version": "1.0.0",
   "author": "Alex Duda <aduda@humanseelabs.com>",

@@ -1,4 +1,4 @@
-// const { isNil } = require('lodash')
+const { isNil } = require('lodash')
 
 const mapPagesUrls = {
   index: '/',
@@ -27,9 +27,7 @@ module.exports = {
           { name: 'url', store: true },
         ],
         // A function for filtering nodes. () => true by default
-        filterNodes: (node) => node.frontmatter !== undefined,
-        // TODO
-        // filterNodes: (node) => isNil(node.frontmatter), ???????
+        filterNodes: (node) => !isNil(node.frontmatter),
         // How to resolve each field's value for a supported node type 
         resolvers: {
           // For any node of type MarkdownRemark, list how to resolve the fields' values
