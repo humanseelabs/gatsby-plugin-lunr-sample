@@ -2,7 +2,7 @@
 Sample code demonstrating gatsby-plugin-lunr usage with Gatsby2
 
 # Medium
-[Medium](https://medium.com/gatsby-search/gatsby-v2-with-multi-language-search-plugin-c728acb3ab0e)
+[Medium](https://medium.com/humanseelabs/gatsby-v2-with-a-multi-language-search-plugin-ffc5e04f73bc)
 
 ## Install
 
